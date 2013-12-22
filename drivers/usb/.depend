@@ -1,0 +1,184 @@
+# 1 "/home/jason/github/u-boot-1.1.6/drivers/usb//"
+usbin.o: usbin.c /home/jason/github/u-boot-1.1.6/include/common.h \
+  /home/jason/github/u-boot-1.1.6/include/config.h \
+  /home/jason/github/u-boot-1.1.6/include/configs/GTStudio.h \
+  /home/jason/github/u-boot-1.1.6/include/cmd_confdefs.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/bitops.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/bitops.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/types.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/config.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/posix_types.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/stddef.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/posix_types.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/types.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/string.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/string.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/ptrace.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/proc/ptrace.h \
+  /home/jason/source/usr/local/arm/3.4.1/bin/../lib/gcc/arm-linux/3.4.1/include/stdarg.h \
+  /home/jason/github/u-boot-1.1.6/include/part.h \
+  /home/jason/github/u-boot-1.1.6/include/ide.h \
+  /home/jason/github/u-boot-1.1.6/include/flash.h \
+  /home/jason/github/u-boot-1.1.6/include/image.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/u-boot.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/global_data.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/mach-types.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/setup.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/u-boot-arm.h \
+  /home/jason/github/u-boot-1.1.6/include/s3c2410.h \
+  /home/jason/github/u-boot-1.1.6/include/s3c24x0.h \
+  /home/jason/github/u-boot-1.1.6/include/def.h 2440usb.h usbmain.h usb.h \
+  usblib.h usbsetup.h usbin.h
+# 1 "/home/jason/github/u-boot-1.1.6/drivers/usb//"
+usblib.o: usblib.c /home/jason/github/u-boot-1.1.6/include/common.h \
+  /home/jason/github/u-boot-1.1.6/include/config.h \
+  /home/jason/github/u-boot-1.1.6/include/configs/GTStudio.h \
+  /home/jason/github/u-boot-1.1.6/include/cmd_confdefs.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/bitops.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/bitops.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/types.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/config.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/posix_types.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/stddef.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/posix_types.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/types.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/string.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/string.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/ptrace.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/proc/ptrace.h \
+  /home/jason/source/usr/local/arm/3.4.1/bin/../lib/gcc/arm-linux/3.4.1/include/stdarg.h \
+  /home/jason/github/u-boot-1.1.6/include/part.h \
+  /home/jason/github/u-boot-1.1.6/include/ide.h \
+  /home/jason/github/u-boot-1.1.6/include/flash.h \
+  /home/jason/github/u-boot-1.1.6/include/image.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/u-boot.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/global_data.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/mach-types.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/setup.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/u-boot-arm.h \
+  /home/jason/github/u-boot-1.1.6/include/s3c2410.h \
+  /home/jason/github/u-boot-1.1.6/include/s3c24x0.h 2440usb.h usbmain.h \
+  usblib.h /home/jason/github/u-boot-1.1.6/include/def.h usbsetup.h
+# 1 "/home/jason/github/u-boot-1.1.6/drivers/usb//"
+usbmain.o: usbmain.c /home/jason/github/u-boot-1.1.6/include/common.h \
+  /home/jason/github/u-boot-1.1.6/include/config.h \
+  /home/jason/github/u-boot-1.1.6/include/configs/GTStudio.h \
+  /home/jason/github/u-boot-1.1.6/include/cmd_confdefs.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/bitops.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/bitops.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/types.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/config.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/posix_types.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/stddef.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/posix_types.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/types.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/string.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/string.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/ptrace.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/proc/ptrace.h \
+  /home/jason/source/usr/local/arm/3.4.1/bin/../lib/gcc/arm-linux/3.4.1/include/stdarg.h \
+  /home/jason/github/u-boot-1.1.6/include/part.h \
+  /home/jason/github/u-boot-1.1.6/include/ide.h \
+  /home/jason/github/u-boot-1.1.6/include/flash.h \
+  /home/jason/github/u-boot-1.1.6/include/image.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/u-boot.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/global_data.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/mach-types.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/setup.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/u-boot-arm.h \
+  /home/jason/github/u-boot-1.1.6/include/s3c2410.h \
+  /home/jason/github/u-boot-1.1.6/include/s3c24x0.h 2440usb.h usbmain.h \
+  usblib.h /home/jason/github/u-boot-1.1.6/include/def.h usbsetup.h \
+  usbout.h usbin.h
+# 1 "/home/jason/github/u-boot-1.1.6/drivers/usb//"
+usbout.o: usbout.c /home/jason/github/u-boot-1.1.6/include/common.h \
+  /home/jason/github/u-boot-1.1.6/include/config.h \
+  /home/jason/github/u-boot-1.1.6/include/configs/GTStudio.h \
+  /home/jason/github/u-boot-1.1.6/include/cmd_confdefs.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/bitops.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/bitops.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/types.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/config.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/posix_types.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/stddef.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/posix_types.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/types.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/string.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/string.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/ptrace.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/proc/ptrace.h \
+  /home/jason/source/usr/local/arm/3.4.1/bin/../lib/gcc/arm-linux/3.4.1/include/stdarg.h \
+  /home/jason/github/u-boot-1.1.6/include/part.h \
+  /home/jason/github/u-boot-1.1.6/include/ide.h \
+  /home/jason/github/u-boot-1.1.6/include/flash.h \
+  /home/jason/github/u-boot-1.1.6/include/image.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/u-boot.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/global_data.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/mach-types.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/setup.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/u-boot-arm.h \
+  /home/jason/github/u-boot-1.1.6/include/s3c2410.h \
+  /home/jason/github/u-boot-1.1.6/include/s3c24x0.h \
+  /home/jason/github/u-boot-1.1.6/include/def.h 2440usb.h usbmain.h usb.h \
+  usblib.h usbsetup.h usbout.h usbinit.h
+# 1 "/home/jason/github/u-boot-1.1.6/drivers/usb//"
+usbsetup.o: usbsetup.c /home/jason/github/u-boot-1.1.6/include/common.h \
+  /home/jason/github/u-boot-1.1.6/include/config.h \
+  /home/jason/github/u-boot-1.1.6/include/configs/GTStudio.h \
+  /home/jason/github/u-boot-1.1.6/include/cmd_confdefs.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/bitops.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/bitops.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/types.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/config.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/posix_types.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/stddef.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/posix_types.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/types.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/string.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/string.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/ptrace.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/proc/ptrace.h \
+  /home/jason/source/usr/local/arm/3.4.1/bin/../lib/gcc/arm-linux/3.4.1/include/stdarg.h \
+  /home/jason/github/u-boot-1.1.6/include/part.h \
+  /home/jason/github/u-boot-1.1.6/include/ide.h \
+  /home/jason/github/u-boot-1.1.6/include/flash.h \
+  /home/jason/github/u-boot-1.1.6/include/image.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/u-boot.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/global_data.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/mach-types.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/setup.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/u-boot-arm.h \
+  /home/jason/github/u-boot-1.1.6/include/s3c2410.h \
+  /home/jason/github/u-boot-1.1.6/include/s3c24x0.h \
+  /home/jason/github/u-boot-1.1.6/include/def.h 2440usb.h usbmain.h usb.h \
+  usblib.h usbsetup.h
+# 1 "/home/jason/github/u-boot-1.1.6/drivers/usb//"
+usbinit.o: usbinit.c /home/jason/github/u-boot-1.1.6/include/common.h \
+  /home/jason/github/u-boot-1.1.6/include/config.h \
+  /home/jason/github/u-boot-1.1.6/include/configs/GTStudio.h \
+  /home/jason/github/u-boot-1.1.6/include/cmd_confdefs.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/bitops.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/bitops.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/types.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/config.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/posix_types.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/stddef.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/posix_types.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/types.h \
+  /home/jason/github/u-boot-1.1.6/include/linux/string.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/string.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/ptrace.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/proc/ptrace.h \
+  /home/jason/source/usr/local/arm/3.4.1/bin/../lib/gcc/arm-linux/3.4.1/include/stdarg.h \
+  /home/jason/github/u-boot-1.1.6/include/part.h \
+  /home/jason/github/u-boot-1.1.6/include/ide.h \
+  /home/jason/github/u-boot-1.1.6/include/flash.h \
+  /home/jason/github/u-boot-1.1.6/include/image.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/u-boot.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/global_data.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/mach-types.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/setup.h \
+  /home/jason/github/u-boot-1.1.6/include/asm/u-boot-arm.h \
+  /home/jason/github/u-boot-1.1.6/include/s3c2410.h \
+  /home/jason/github/u-boot-1.1.6/include/s3c24x0.h usbmain.h usbout.h \
+  usblib.h 2440usb.h /home/jason/github/u-boot-1.1.6/include/def.h
